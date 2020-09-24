@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
@@ -21,11 +21,21 @@
                 <img src="imagens/Tela login/logotipoVerde.png">
                 <h1>Seja bem vindo(a)!</h1>
                 <p>Preenchar os campos abaixo para acessar sua conta</p>
-                <h3>Email</h3>
-                <p>Digite seu email</p>
-                <h3>Email</h3>
-                <p>Digite sua senha</p>
-                <button>ENTRAR</button>
+                <form>
+
+                    <div class="input-group">
+                        <label for="nome" class="field-label">Email</label>
+                        <input type="text" class="field" id="email" placeholder="Digite seu nome">
+                    </div>
+                    <div class="input-group">
+                        <label for="email" class="field-label">Senha</label>
+                        <input type="text" class="field" id="senha" placeholder="Digite sua senha">
+                       <div class="input-group a">
+                           <a href="#">Esqueceu senha</a>
+                        </div> 
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                </form>
 
             </div>
     </div>
