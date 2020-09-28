@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.grid-container { width: 99vw; height: 99vh; display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 10% 70% 20%;
+  gap: 1px 1px;
+  grid-template-areas:
+    "menulateral titles ."
+    "menulateral conteudos ."
+    "menulateral footer .";
+    
+}
+.footer { background-color: rgb(255, 251, 0); grid-area: footer; }
+.conteudos { background-color: rgb(23, 187, 37); grid-area: conteudos; }
+.menulateral { background-color: rgb(255, 255, 255); grid-area: menulateral; }
+.titles { background-color: rgb(247, 0, 255); grid-area: titles;}
+.Logooncall{ vertical-align: middle; width: max-content; max-height: max-content;}
+.fotoUser{vertical-align: middle; width: max-content; max-height: max-content;}
+.header{ width: 60%; height: 20%; padding: 20% 20%; background-color: cadetblue;}
+.user{width: 60%; height: 5%; padding: 2% 20% 2% 20%;  background-color: coral; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 16px; color: black;}

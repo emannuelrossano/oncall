@@ -1,0 +1,60 @@
+#principal{
+    display: grid;
+
+    /*grid-template-areas:  "cabecalho  cabecalho  "
+                           "menu    menu"
+                           "conteudo aside" 
+                           "footer  footer";*/ 
+
+
+                           grid-template-rows: repeat(5, 50px);
+                           grid-template-columns: repeat(5, 1fr)
+    
+
+}
+.cabecalho{
+    background-color: rgb(255, 251, 0);
+    /*grid-area: cabecalho;*/
+    grid-row-start:1 ;
+    grid-row-end:6;
+
+    grid-column-start:1 ;
+    grid-column-end:1;
+}
+.menu{
+    background-color: rgb(23, 187, 37);
+    /*grid-area: menu;*/
+    grid-row-start:1 ;
+    grid-row-end:1;
+
+    grid-column-start:2 ;
+    grid-column-end:6;
+ 
+}
+.conteudo{
+    background-color: rgb(255, 187, 0);
+    /*grid-area: conteudo;*/
+    grid-row-start:2 ;
+    grid-row-end:4;
+
+    grid-column-start:2 ;
+    grid-column-end:6;
+}
+.aside{
+    background-color: rgb(247, 0, 255);
+    /*grid-area: aside;*/
+    grid-row-start:4 ;
+    grid-row-end:5;
+
+    grid-column-start:2 ;
+    grid-column-end:6;
+}
+.footer{
+    background-color: rgb(255, 0, 43);
+    /*grid-area: footer;*/
+    grid-row-start:5 ;
+    grid-row-end:6;
+
+    grid-column-start:2 ;
+    grid-column-end:6;
+}
