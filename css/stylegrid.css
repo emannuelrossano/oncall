@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 *{
+  font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 .grid-container { width: 99vw; height: 99vh; display: grid;
   grid-template-columns: 15% 85%;
-  grid-template-rows: 10% 70% 20%;
+  grid-template-rows: 3% 90% 5%;
   gap: 1px 1px;
   grid-template-areas:
     "menulateral titles ."
@@ -11,11 +14,252 @@
     "menulateral footer .";
     
 }
-.footer { background-color: rgb(255, 251, 0); grid-area: footer; }
-.conteudos { background-color: rgb(23, 187, 37); grid-area: conteudos; }
+.footer { background-color: #DEDEDE; grid-area: footer; }
+.conteudos {background-color: #DEDEDE; grid-area: conteudos; }
 .menulateral { background-color: rgb(255, 255, 255); grid-area: menulateral; }
-.titles { background-color: rgb(247, 0, 255); grid-area: titles;}
+.titles { background-color: #18B4AB; grid-area: titles;}
 .Logooncall{ vertical-align: middle; width: max-content; max-height: max-content;}
 .fotoUser{vertical-align: middle; width: max-content; max-height: max-content;}
-.header{ width: 60%; height: 20%; padding: 20% 20%; background-color: cadetblue;}
-.user{width: 60%; height: 5%; padding: 2% 20% 2% 20%;  background-color: coral; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 16px; color: black;}
+.header{ width: 100%; height: 35%; padding: 0; background-color: rgb(255, 255, 255);}
+
+
+#logo  {
+  width:100%; /*width of your image*/
+  height:82px; /*height of your image*/
+  margin:auto 20px;/* If you want no margin */
+  padding:0; /*if your want to padding */
+  justify-content: center;
+}
+#fotoOperador {
+  width:100px; /*width of your image*/
+  height:100px; /*height of your image*/
+  margin:3rem auto; /* If you want no margin */
+  padding:0px auto; /*if your want to padding */
+}
+#user{
+  position: absolute; 
+  width: 15%; 
+  height: 0px;  
+  margin: 5px auto; 
+  font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-style: normal;   
+  font-weight: 600; 
+  font-size: 16px;   
+  line-height: 20px;  /* identical to box height, or 125% */
+  text-align: center;
+
+}
+#cargo{
+  position: absolute; 
+    width: 15%; 
+    height: 20px;  
+    margin: 20px auto; 
+    font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: normal;   
+    font-size: 16px;   
+    line-height: 20px;  /* identical to box height, or 125% */
+    text-align: center;
+    color: #3A3B3F;
+  }
+  #linha-vertical {
+    height: 200px;
+    border-right: 1px solid red;
+    }
+  #linha-horizontal {
+    width: 70%;
+    margin: 10% auto;
+    border: 0.2px solid #19a095;
+    opacity: 50%;
+  }
+/* ====================================menu letaral==========================================*/ 
+  #menubv {
+    padding: 0px;
+    margin: 10% 0px;
+    }
+     
+    #menubv ul {
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+    }
+     
+    #menubv li {
+      list-style: none;
+      margin: 0px;
+      padding: 5px;
+    }
+      
+    #menubv li a {
+    font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    font-weight: normal;
+    display: block;
+    padding: 15px 5px 15px 15px;
+    background-color: rgb(255, 255, 255);
+    color: #8B999F;
+    text-decoration: none;
+    }
+     
+    #menubv li a:hover {
+    font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 500;
+    font-weight: bold;
+    border-left: 5px solid  #19a095;
+    border-right: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #19a095;
+    padding-left: 15px;
+    }
+    #menubv img{
+      padding: 0 5px;
+    }
+     
+    i
+ #menubv ul li a img {
+    color: rgb(72, 73, 73)96, 99, 99);
+  }
+  #menubv ul li a img :hover{
+    color: teal;
+  }
+    /* Fix IE. Hide from IE Mac */
+    * html #menubv ul li { float: left; height: 1%; }
+    * html #menubv ul li a { height: 1%; }
+    /* End */
+
+
+/* ===========FIM=========================menu letaral=======================FIM===================*/ 
+
+
+/* ===========INICIO=========================C O N T E U D O      G E R A I S =======================INICIO===================*/ 
+
+#indicadores{
+  font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  width: 100%;
+  padding:  55px 10px 5px 10px;
+  background-color: #DEDEDE;
+  display: inline-block;
+
+}
+h4{
+  color: #66788A;
+}
+#icone img{
+  float: right;
+}
+
+.avaliacao_Agendadas{
+  width: 22%;
+  height: 150px;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid #aaaaac; 
+  background-color: #ffffff;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+  -moz-box-shadow:    2px 1px 1px #8b8b8bde;
+  box-shadow:         2px 1px 1px #8b8b8bde;
+
+}
+.assinatura_historico{
+  width: 22%;
+  height: 150px;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid  #aaaaac; 
+  background-color:  #ffffff;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+  -moz-box-shadow:    2px 1px 1px #8b8b8bde;
+  box-shadow:         2px 1px 1px #8b8b8bde;
+
+}
+.financeiro{
+  width: 22%;
+  height: 150px;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid  #aaaaac; 
+  background-color: #ffffff;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+  -moz-box-shadow:    2px 1px 1px #8b8b8bde;
+  box-shadow:         2px 1px 1px #8b8b8bde;
+}
+.notificacoes{
+  width: 22%;
+  height: 150px;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid #aaaaac; 
+  background-color:  #E0E1E3;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+  -moz-box-shadow:    2px 1px 1px #8b8b8bde;
+  box-shadow:         2px 1px 1px #8b8b8bde;
+}
+    
+
+#agenda{
+  font-family: "Montserrat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  width: 70%;
+  height: 65%;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid #aaaaac; 
+  background-color:  #ffffff;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+		-moz-box-shadow:    2px 1px 1px #8b8b8bde;
+		box-shadow:         2px 1px 1px #8b8b8bde;
+}
+#agenda p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+font-weight: 200;
+color: #3A3B3F;
+padding: 10px;
+
+}
+
+agenda h1{
+  text-align: left;
+  color: #2275c9 ;
+  font-size: 1.5rem;
+  font-family: "Montserrat:", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-weight: 400;
+}
+#agenda_detalhes h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: #3A3B3F;
+  padding: 10px;
+  
+  }
+
+ table{
+  width: 100%;
+  height: 100%;
+  border-top: #19a095 2px;
+  border: #3A3B3F solid 1px;
+  background-color: #8B999F;
+}
+
+
+.mensagens{
+  width: 22%;
+  height: 800%;
+  padding: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+  border:1px solid #aaaaac; 
+  background-color:  #ffffff;
+  float: left;
+  -webkit-box-shadow: 2px 1px 1px #8b8b8bde;
+  -moz-box-shadow:    2px 1px 1px #8b8b8bde;
+  box-shadow:         2px 1px 1px #8b8b8bde;
+}
