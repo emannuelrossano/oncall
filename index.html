@@ -19,17 +19,17 @@
             </div>
             <div class="login">
                 <img src="imagens/Tela login/logotipoVerde.png">
-                <h1>Seja bem vindo(a)!!!!!!!!!!!!!!!!!</h1>
+                <h1>Seja bem vindo(a)!</h1>
                 <p>Preenchar os campos abaixo para acessar sua conta</p>
-                <form>
+                <form action="functions/inserir.php" method="post">
 
                     <div class="input-group">
                         <label for="nome" class="field-label">E-mail</label>
-                        <input type="text" class="field" id="email" placeholder="Digite seu nome">
+                        <input name="nome" type="text" class="field" id="email" placeholder="Digite seu E-mail">
                     </div>
                     <div class="input-group">
                         <label for="email" class="field-label">Senha</label>
-                        <input type="text" class="field" id="senha" placeholder="Digite sua senha">
+                        <input name="password" type="text" class="field" id="senha" placeholder="Digite sua senha">
                        <div class="input-group a">
                            <a href="#">Esqueceu a senha</a>
                         </div> 
